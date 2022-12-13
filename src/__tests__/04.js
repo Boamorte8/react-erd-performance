@@ -1,10 +1,9 @@
-import * as React from 'react'
-import {alfredTip} from '@kentcdodds/react-workshop-app/test-utils'
-import {render, waitFor, screen} from '@testing-library/react'
 import {build, fake, sequence} from '@jackfranklin/test-data-bot'
+import {alfredTip} from '@kentcdodds/react-workshop-app/test-utils'
+import {render, screen, waitFor} from '@testing-library/react'
 import {getItems} from '../workerized-filter-cities'
-import App from '../final/04'
-// import App from '../exercise/04'
+// import App from '../final/04'
+import App from '../exercise/04'
 
 const buildItem = build({
   fields: {
